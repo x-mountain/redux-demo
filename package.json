@@ -1,0 +1,40 @@
+{
+  "name": "react-redux-demo",
+  "version": "1.0.0",
+  "description": "Demo for the redux",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Demo",
+    "Redux",
+    "React"
+  ],
+  "author": "shan qiu",
+  "license": "MIT",
+  "dependencies": {
+    "babel-loader": "~5.3.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "flux": "~2.0.3",
+    "jsx-loader": "^0.13.2",
+    "object-assign": "^4.0.1",
+    "path": "^0.12.7",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1",
+    "webpack": "^1.11.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.3",
+    "open-browser-webpack-plugin": "0.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack-dev-server": "~1.10.1"
+  }
+}
